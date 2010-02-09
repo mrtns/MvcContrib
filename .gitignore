@@ -1,12 +1,37 @@
-build/
-*.suo
+#OS junk files
+Thumbs.db
+*.DS_Store
+
+#Visual Studio files
+*.obj
+*.exe
+*.pdb
 *.user
-bin
-!/bin
-obj
-_ReSharper*
-*.csproj.user
-*.resharper.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
 *.suo
+*.tlb
+*.tlh
+*.bak
 *.cache
-TestResult.xml
+*.ilk
+*.log
+*.lib
+*.sbr
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+
+#Tooling
+_ReSharper*/
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+Anitec.WebMvc.Site/Logs/
